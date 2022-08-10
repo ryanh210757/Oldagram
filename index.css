@@ -1,0 +1,93 @@
+html, section {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+    width: 520px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.header .avatar{
+    margin-bottom: 5px;
+}
+
+.logo{
+    width: 140px;
+    margin-right: 290px;
+}
+
+.avatar{
+    border-radius: 100%;
+    width: 50px;
+}
+
+.header{
+    border-bottom: 1px solid #C6C6C6;
+    
+    
+}
+
+.author{
+    display: flex;
+    margin: 0 0 10px 10px;
+
+}
+
+.author .avatar{
+    width: 40px;
+}
+
+.post{
+    width: 520px;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.location{
+    margin-left: 13px;    
+}
+
+.icons{
+    display: flex;
+    height: 35px;
+    margin-left: 10px;
+}
+
+#like, 
+.comment,
+.message{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+#like:hover,
+.comment:hover,
+.message:hover{
+    opacity: 0.5;
+}
+
+#likecount, .userCaption{
+    display: flex;
+    margin: 16px 18px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.caption{
+    font-weight:300;
+
+    margin-left: 10px;
+}
+
+.publisher{
+    margin: 10px 10px 0px 0;
+    display: flex;
+}
